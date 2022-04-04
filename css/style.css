@@ -149,7 +149,8 @@ margin-bottom: 100px;
 
 .my-work-box{
   position: relative;
-  width: 36vw;
+  display: flex;
+  justify-content: center;
 }
 
 .my-work-img {
@@ -319,7 +320,11 @@ color: #FFCC00!important;
 
 
   @media (min-width: 1200px) {
+    .container {
+    max-width: 1700px;
 }
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
   
@@ -344,6 +349,11 @@ color: #FFCC00!important;
 
 
 @media (min-width:  576px) and (max-width: 767px) {
+  
+.container {
+    max-width: 602px;
+}
+
   .nav-link {
                 font-size: 1rem;
             }
@@ -366,6 +376,8 @@ color: #FFCC00!important;
 
 @media (min-width:  300px) and (max-width: 576px){
  
+
+
 .footer-card{
   width: 83%!important;
 }
